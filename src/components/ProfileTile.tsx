@@ -1,6 +1,5 @@
 export default function ProfileTile() {
   return (
-
     <div className="relative col-span-1 aspect-square rounded-[2rem] overflow-hidden shadow-sm">
       <img
         src="/profile.jpg"
@@ -21,7 +20,7 @@ export default function ProfileTile() {
             </p>
           </div>
 
-          <button className="px-5 py-2 rounded-full border border-white/50 bg-white/10 backdrop-blur-md text-white text-[15px] font-medium hover:bg-white/20 transition-colors">
+          <button className="px-5 py-2 rounded-full border-2 border-white/75 bg-white/10 backdrop-blur-sm text-white text-[15px] font-medium hover:bg-white/20 transition-colors">
             $1,200
           </button>
         </div>
