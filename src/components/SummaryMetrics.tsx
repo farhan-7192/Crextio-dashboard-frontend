@@ -12,7 +12,7 @@ export default function SummaryMetrics() {
             Employe
           </span>
         </div>
-        <span className="text-[64px] leading-none font-light tracking-[-3px] text-slate-900">
+        <span className="text-[64px] leading-none font-extralight tracking-[-3px] text-slate-900">
           78
         </span>
       </div>
@@ -26,7 +26,7 @@ export default function SummaryMetrics() {
             Hirings
           </span>
         </div>
-        <span className="text-[64px] leading-none font-light tracking-[-3px] text-slate-900">
+        <span className="text-[64px] leading-none font-extralight tracking-[-3px] text-slate-900">
           56
         </span>
       </div>
@@ -40,7 +40,7 @@ export default function SummaryMetrics() {
             Projects
           </span>
         </div>
-        <span className="text-[64px] leading-none font-light tracking-[-3px] text-slate-900">
+        <span className="text-[64px] leading-none font-extralight tracking-[-3px] text-slate-900">
           203
         </span>
       </div>
