@@ -58,8 +58,8 @@ export default function ProgressTile() {
     <div className="col-span-1 aspect-square rounded-[2rem] bg-white/40 backdrop-blur-sm border border-white/50 p-5 xl:p-6 flex flex-col shadow-sm">
       <div className="flex items-start justify-between">
         <h3 className="text-[17px] font-medium text-slate-900">Progress</h3>
-        <button className="w-8 h-8 rounded-full bg-white/70 flex items-center justify-center hover:bg-white transition-colors shadow-sm">
-          <ArrowUpRight className="w-4 h-4 text-slate-800" strokeWidth={2} />
+        <button className="w-10 h-10 rounded-full bg-white/70 flex items-center justify-center hover:bg-white transition-colors shadow-sm">
+          <ArrowUpRight className="w-5 h-5 text-slate-800" strokeWidth={2} />
         </button>
       </div>
 
@@ -76,7 +76,6 @@ export default function ProgressTile() {
 
       <div className="flex-1 mt-2 w-full flex flex-col justify-end">
         <div className="relative w-full h-35 px-1 xl:px-2">
-          
           <div className="absolute bottom-12.5 left-0 right-0 z-0 h-0.5">
             <svg width="100%" height="100%">
               <line
@@ -84,10 +83,10 @@ export default function ProgressTile() {
                 y1="1"
                 x2="100%"
                 y2="1"
-                stroke="#9ca3af" 
+                stroke="#9ca3af"
                 strokeWidth="1.5"
                 strokeOpacity="0.8"
-                strokeDasharray="3 8" 
+                strokeDasharray="3 8"
               />
             </svg>
           </div>

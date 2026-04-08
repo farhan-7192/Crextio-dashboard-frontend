@@ -1,5 +1,6 @@
 import ProfileTile from "./ProfileTile";
 import ProgressTile from "./ProgressTile";
+import TimeTrackerTile from "./TimeTrackerTile";
 
 export default function DashboardGrid() {
   return (
@@ -8,15 +9,11 @@ export default function DashboardGrid() {
 
       <ProgressTile />
 
-      <div className="col-span-1 aspect-square rounded-[2rem] border-2 border-gray-400/30 border-dashed bg-white/10 backdrop-blur-sm flex items-center justify-center">
-        <span className="text-slate-400/80 font-medium text-sm">
-          Time Tracker Tile
-        </span>
-      </div>
+      <TimeTrackerTile />
 
-      <div className="col-span-1 row-span-2 rounded-[2.5rem] border-2 border-gray-500/30 border-dashed bg-[#2c2d30]/80 backdrop-blur-sm flex items-center justify-center">
+      <div className="col-span-1 row-span-2 rounded-[2.5rem] bg-[#2c2d30] p-6 flex items-center justify-center">
         <span className="text-white/60 font-medium text-sm">
-          Onboarding Task
+          [ Onboarding Task List Will Go Here ]
         </span>
       </div>
 
