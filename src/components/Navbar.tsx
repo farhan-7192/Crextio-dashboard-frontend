@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <div className="w-full flex items-center pt-2">
       <div className="w-1/3 flex justify-start">
-        <div className="px-6 h-12 flex items-center rounded-[2rem] border border-gray-400/30 bg-white/20 backdrop-blur-sm">
+        <div className="px-6 h-12 flex items-center rounded-[2rem] border-2 border-gray-400/90 bg-white/10 backdrop-blur-sm">
           <span className="text-[22px] font-normal text-slate-900 tracking-tight">
             Crextio
           </span>
