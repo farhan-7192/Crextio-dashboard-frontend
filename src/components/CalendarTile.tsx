@@ -1,6 +1,3 @@
-import React from "react";
-
-// Reusable SVG for the perfect vertical dotted lines
 const VerticalDottedLine = () => (
   <div className="absolute top-14 bottom-2 w-px flex justify-center z-0">
     <svg width="2" height="100%">
@@ -31,7 +28,6 @@ export default function CalendarTile() {
 
   return (
     <div className="col-span-2 rounded-[2.5rem] bg-white/40 backdrop-blur-sm border border-black/5 p-6 flex flex-col shadow-xl overflow-hidden relative">
-      {/* 1. Header Row */}
       <div className="w-full flex justify-between items-center mb-6 px-2">
         <button className="px-5 py-1.5 rounded-full bg-white/70 text-[13px] text-slate-500 font-medium shadow-sm">
           August
@@ -44,9 +40,7 @@ export default function CalendarTile() {
         </button>
       </div>
 
-      {/* 2. Main Calendar Grid Area */}
       <div className="flex-1 flex w-full relative">
-        {/* Left Time Column */}
         <div className="w-[70px] flex flex-col justify-between pt-[68px] pb-[10px] text-[12px] font-medium text-slate-500 shrink-0">
           {times.map((time) => (
             <span key={time} className="leading-none">
@@ -55,9 +49,7 @@ export default function CalendarTile() {
           ))}
         </div>
 
-        {/* Right Area: Days, Lines, and Floating Events */}
         <div className="flex-1 flex justify-between relative">
-          {/* Background Columns (Days + Dotted Lines) */}
           {days.map((day, idx) => (
             <div
               key={idx}
@@ -79,7 +71,6 @@ export default function CalendarTile() {
             </div>
           ))}
 
-          {/* Floating Event 1: Weekly Team Sync */}
           <div className="absolute top-[70px] left-[12%] w-[48%] bg-[#2c2d30] rounded-3xl p-3.5 px-4 flex items-center justify-between shadow-md z-20">
             <div className="flex flex-col">
               <span className="text-[13px] font-medium text-white leading-tight">
@@ -89,7 +80,6 @@ export default function CalendarTile() {
                 Discuss progress on projects
               </span>
             </div>
-            {/* Avatar Stack */}
             <div className="flex -space-x-1.5 shrink-0 ml-2">
               <img
                 src="/profile.jpg"
@@ -109,7 +99,6 @@ export default function CalendarTile() {
             </div>
           </div>
 
-          {/* Floating Event 2: Onboarding Session */}
           <div className="absolute top-[170px] left-[42%] w-[46%] bg-white/90 backdrop-blur-md rounded-3xl p-3.5 px-4 flex items-center justify-between shadow-lg border border-gray-200/50 z-20">
             <div className="flex flex-col">
               <span className="text-[13px] font-medium text-slate-900 leading-tight">
@@ -119,7 +108,6 @@ export default function CalendarTile() {
                 Introduction for new hires
               </span>
             </div>
-            {/* Avatar Stack */}
             <div className="flex -space-x-1.5 shrink-0 ml-2">
               <img
                 src="/profile.jpg"
